@@ -40,4 +40,4 @@ This ruleset extends [PSR-2](https://www.php-fig.org/psr/psr-2/) rules, and incl
 * Require trailing comma on every element of multi-line arrays.
 * Require no spaces between return type hint colon and function closing brace [`function (...): string`].
 * Enforce all global namespace classes, functions and constants to be explicitly imported.
-* Require comments with single line written as one-liners [`/* @var SoomeType **/`].
+* Require comments with single line written as one-liners [`/* @var SomeType **/`].
