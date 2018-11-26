@@ -1,0 +1,23 @@
+{
+    "name": "shlinkio/php-coding-standard",
+    "description": "Coding standard used by shlink PHP projects",
+    "type": "phpcodesniffer-standard",
+    "homepage": "https://shlink.io",
+    "keywords": ["coding", "standard", "cs", "code", "style", "sniffer"],
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "slevomat/coding-standard": "^4.8",
+        "squizlabs/php_codesniffer": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejandro Celaya",
+            "homepage": "https://www.alejandrocelaya.com",
+            "email": "alejandro@alejandrocelaya.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    }
+}
