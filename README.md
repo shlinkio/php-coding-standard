@@ -41,3 +41,4 @@ This ruleset extends [PSR-2](https://www.php-fig.org/psr/psr-2/) rules, and incl
 * Require no spaces between return type hint colon and function closing brace [`function (...): string`].
 * Enforce all global namespace classes, functions and constants to be explicitly imported.
 * Require comments with single line written as one-liners [`/* @var SomeType **/`].
+* Require import blocks (`use`, `use const` and `use function`) to be separated by an empty line.
