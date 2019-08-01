@@ -50,4 +50,9 @@
             <property name="linesCountBetweenUseTypes" value="1" />
         </properties>
     </rule>
+    <!-- Enforce class constants to have a visibility modifier -->
+    <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
+    <!-- Enforce closures not using $this to be static -->
+    <rule ref="SlevomatCodingStandard.Functions.StaticClosure"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
 </ruleset>
