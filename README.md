@@ -42,3 +42,5 @@ This ruleset extends [PSR-2](https://www.php-fig.org/psr/psr-2/) rules, and incl
 * Enforce all global namespace classes, functions and constants to be explicitly imported.
 * Require comments with single line written as one-liners [`/* @var SomeType **/`].
 * Require import blocks (`use`, `use const` and `use function`) to be separated by an empty line.
+* Make all class constants to have a visibility modifier (`public`, `protected` or `private`).
+* Require function arguments with a default `null` value to be defined as nullable (`?string $foo = 'foo'`).
