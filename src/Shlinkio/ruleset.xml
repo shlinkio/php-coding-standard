@@ -3,7 +3,7 @@
     <description>Shlinkio coding standard</description>
 
     <!-- inherit rules from: -->
-    <rule ref="PSR2"/>
+    <rule ref="PSR12" />
 
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <!-- Make sure string concatenations use 1 space between every element -->
@@ -19,12 +19,6 @@
         </properties>
     </rule>
     <rule ref="Squiz.Strings.DoubleQuoteUsage"/>
-    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
-        <properties>
-            <property name="newlinesCountBetweenOpenTagAndDeclare" value="1"/>
-            <property name="spacesCountAroundEqualsSign" value="0"/>
-        </properties>
-    </rule>
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
         <properties>
             <property name="searchAnnotations" value="true"/>
@@ -34,7 +28,6 @@
     <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
-    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
     <!-- Enforce all global namespace classes, functions and constants to be explicitly imported -->
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
         <properties>
@@ -44,12 +37,6 @@
     </rule>
     <!-- Require comments with single line written as one-liners -->
     <rule ref="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment"/>
-    <!-- Require an empty line between every group of imports -->
-    <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing">
-        <properties>
-            <property name="linesCountBetweenUseTypes" value="1" />
-        </properties>
-    </rule>
     <!-- Enforce class constants to have a visibility modifier -->
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
