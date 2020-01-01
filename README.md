@@ -41,3 +41,4 @@ This ruleset extends [PSR-12](https://www.php-fig.org/psr/psr-12/) rules, and in
 * Require comments with single line written as one-liners [`/* @var SomeType **/`].
 * Make all class constants to have a visibility modifier (`public`, `protected` or `private`).
 * Require function arguments with a default `null` value to be defined as nullable (`?string $foo = 'foo'`).
+* Require properties to have a native type hint whenever possible.
