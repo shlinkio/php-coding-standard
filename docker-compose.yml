@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  shlink_coding_standard_php:
+    container_name: shlink_coding_standard_php
+    entrypoint: ['/bin/sh', '-c']
+    image: composer:1.9.1
+    volumes:
+      - ./:/app

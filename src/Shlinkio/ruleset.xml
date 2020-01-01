@@ -40,4 +40,6 @@
     <!-- Enforce class constants to have a visibility modifier -->
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint"/>
+    <rule ref="SlevomatCodingStandard.Functions.TrailingCommaInCall"/>
 </ruleset>

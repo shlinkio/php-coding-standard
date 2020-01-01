@@ -37,7 +37,9 @@ This ruleset extends [PSR-12](https://www.php-fig.org/psr/psr-12/) rules, and in
 * Require alphabetically ordered use statements.
 * Require strict comparisons (`===` and `!==` instead of `==` and `!=`).
 * Require trailing comma on every element of multi-line arrays.
+* Require trailing comma on every element of multi-line function calls.
 * Enforce all global namespace classes, functions and constants to be explicitly imported.
 * Require comments with single line written as one-liners [`/* @var SomeType **/`].
 * Make all class constants to have a visibility modifier (`public`, `protected` or `private`).
 * Require function arguments with a default `null` value to be defined as nullable (`?string $foo = 'foo'`).
+* Require properties to have a native type hint whenever possible.
