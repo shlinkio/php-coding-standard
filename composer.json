@@ -5,9 +5,9 @@
     "homepage": "https://shlink.io",
     "keywords": ["coding", "standard", "cs", "code", "style", "sniffer"],
     "require": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^v0.7.0",
-        "slevomat/coding-standard": "^6.4",
-        "squizlabs/php_codesniffer": "^3.5.6"
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "slevomat/coding-standard": "^7.0",
+        "squizlabs/php_codesniffer": "^3.6"
     },
     "license": "MIT",
     "authors": [

@@ -25,21 +25,21 @@
         </properties>
     </rule>
     <!-- Force strict comparison with === or !== instead of == or != -->
-    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators"/>
-    <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
-    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
+    <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators" />
+    <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
+    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
     <!-- Enforce all global namespace classes, functions and constants to be explicitly imported -->
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
         <properties>
-            <property name="allowFallbackGlobalFunctions" value="false"/>
-            <property name="allowFallbackGlobalConstants" value="false"/>
+            <property name="allowFallbackGlobalFunctions" value="false" />
+            <property name="allowFallbackGlobalConstants" value="false" />
         </properties>
     </rule>
     <!-- Require comments with single line written as one-liners -->
-    <rule ref="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment"/>
+    <rule ref="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment" />
     <!-- Enforce class constants to have a visibility modifier -->
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
-    <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint">
         <exclude name="SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingTraversableTypeHintSpecification" />
     </rule>
@@ -49,5 +49,13 @@
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint">
         <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingTraversableTypeHintSpecification" />
     </rule>
-    <rule ref="SlevomatCodingStandard.Functions.TrailingCommaInCall"/>
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall" />
+    <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration" />
+    <rule ref="SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch" />
+    <rule ref="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat">
+        <properties>
+            <property name="withSpaces" value="no" />
+            <property name="nullPosition" value="last" />
+        </properties>
+    </rule>
 </ruleset>

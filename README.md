@@ -38,6 +38,7 @@ This ruleset extends [PSR-12](https://www.php-fig.org/psr/psr-12/) rules, and in
 * Require strict comparisons (`===` and `!==` instead of `==` and `!=`).
 * Require trailing comma on every element of multi-line arrays.
 * Require trailing comma on every element of multi-line function calls.
+* Require trailing comma on every element of multi-line function declarations.
 * Enforce all global namespace classes, functions and constants to be explicitly imported.
 * Require comments with single line written as one-liners [`/* @var SomeType **/`].
 * Make all class constants to have a visibility modifier (`public`, `protected` or `private`).
@@ -45,3 +46,5 @@ This ruleset extends [PSR-12](https://www.php-fig.org/psr/psr-12/) rules, and in
 * Require function arguments to have a native type hint whenever possible.
 * Require functions to have a native return type hint whenever possible.
 * Require properties to have a native type hint whenever possible.
+* Require non-capturing catch when the exception variable is not used.
+* Format union types without spaces (`foo|bar`) and enforcing null at the end for nullables (`foo|bar|null`).
