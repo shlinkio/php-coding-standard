@@ -3,6 +3,7 @@ version: '3'
 services:
   shlink_coding_standard_php:
     container_name: shlink_coding_standard_php
+    user: 1000:1000
     entrypoint: ['/bin/sh', '-c']
     image: composer:2
     volumes:
