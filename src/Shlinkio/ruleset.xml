@@ -56,6 +56,8 @@
         <properties>
             <property name="withSpaces" value="no" />
             <property name="nullPosition" value="last" />
+            <!-- Enforce `string|null` over `?string` for nullable types -->
+            <property name="shortNullable" value="no" />
         </properties>
     </rule>
 </ruleset>
