@@ -52,9 +52,9 @@
     <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInCall" />
     <rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration" />
     <rule ref="SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch" />
-    <rule ref="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat">
+    <rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat">
         <properties>
-            <property name="withSpaces" value="no" />
+            <property name="withSpacesAroundOperators" value="no" />
             <property name="nullPosition" value="last" />
             <!-- Enforce `string|null` over `?string` for nullable types -->
             <property name="shortNullable" value="no" />
