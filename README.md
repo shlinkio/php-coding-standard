@@ -1,6 +1,6 @@
 # Shlink coding standard
 
-This repository provides a [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) ruleset with the rules used by shlink PHP projects.
+This repository provides a [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) ruleset with the rules used by shlink PHP projects.
 
 ## Usage
 
