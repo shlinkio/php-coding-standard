@@ -1,5 +1,8 @@
 # Shlink coding standard
 
+> [!NOTE]
+> This project is no longer supported, since all Shlink PHP projects are now linted and formatted with [Mago](https://mago.carthage.software).
+
 This repository provides a [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) ruleset with the rules used by shlink PHP projects.
 
 ## Usage
